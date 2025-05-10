@@ -128,5 +128,89 @@ export const exercises: Exercise[] = [
     reps: 12,
     restTime: 60,
     video: 'https://www.youtube.com/watch?v=QE_hU8XX48I'
+  },
+  {
+    id: '7',
+    name: 'Peso Muerto',
+    description: 'Ejercicio compuesto que fortalece la cadena posterior y mejora la postura',
+    muscleGroup: 'Espalda',
+    equipment: ['Barra', 'Discos'],
+    difficulty: 'Intermedio',
+    instructions: [
+      'Párate con los pies separados al ancho de los hombros',
+      'Agarra la barra con las manos un poco más separadas que los hombros',
+      'Mantén la espalda recta y el pecho arriba',
+      'Levanta la barra manteniendo la espalda recta',
+      'Baja la barra de manera controlada'
+    ],
+    image: 'https://images.pexels.com/photos/6551136/pexels-photo-6551136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    duration: 50,
+    sets: 4,
+    reps: 8,
+    restTime: 90,
+    video: 'https://www.youtube.com/watch?v=op9kVnSso6Q'
+  },
+  {
+    id: '8',
+    name: 'Press de Banca',
+    description: 'Ejercicio fundamental para desarrollar el pecho y los hombros',
+    muscleGroup: 'Pecho',
+    equipment: ['Barra', 'Banco', 'Discos'],
+    difficulty: 'Intermedio',
+    instructions: [
+      'Acuéstate en el banco con los pies apoyados en el suelo',
+      'Agarra la barra con las manos un poco más separadas que los hombros',
+      'Baja la barra de manera controlada hasta el pecho',
+      'Empuja la barra hacia arriba hasta extender los brazos',
+      'Mantén los hombros y glúteos en contacto con el banco'
+    ],
+    image: 'https://images.pexels.com/photos/6551136/pexels-photo-6551136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    duration: 45,
+    sets: 4,
+    reps: 10,
+    restTime: 90,
+    video: 'https://www.youtube.com/watch?v=rT7DgCr-3pg'
+  },
+  {
+    id: '9',
+    name: 'Remo con Barra',
+    description: 'Ejercicio para fortalecer la espalda y mejorar la postura',
+    muscleGroup: 'Espalda',
+    equipment: ['Barra', 'Discos'],
+    difficulty: 'Intermedio',
+    instructions: [
+      'Párate con los pies separados al ancho de los hombros',
+      'Inclínate hacia adelante manteniendo la espalda recta',
+      'Agarra la barra con las palmas hacia abajo',
+      'Tira de la barra hacia tu abdomen',
+      'Baja la barra de manera controlada'
+    ],
+    image: 'https://images.pexels.com/photos/6551136/pexels-photo-6551136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    duration: 45,
+    sets: 3,
+    reps: 12,
+    restTime: 60,
+    video: 'https://www.youtube.com/watch?v=FWJR5Ve8bnQ'
+  },
+  {
+    id: '10',
+    name: 'Press Militar',
+    description: 'Ejercicio para desarrollar hombros y tríceps',
+    muscleGroup: 'Hombros',
+    equipment: ['Barra', 'Discos'],
+    difficulty: 'Intermedio',
+    instructions: [
+      'Párate con los pies separados al ancho de los hombros',
+      'Sostén la barra a la altura de los hombros',
+      'Empuja la barra hacia arriba hasta extender los brazos',
+      'Baja la barra de manera controlada',
+      'Mantén el core activado durante todo el movimiento'
+    ],
+    image: 'https://images.pexels.com/photos/6551136/pexels-photo-6551136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    duration: 40,
+    sets: 3,
+    reps: 10,
+    restTime: 60,
+    video: 'https://www.youtube.com/watch?v=2yjwXTZQDDI'
   }
 ];

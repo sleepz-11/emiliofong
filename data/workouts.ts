@@ -59,6 +59,56 @@ export const workouts = [
     image: 'https://images.pexels.com/photos/3076509/pexels-photo-3076509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     level: 'Intermedio',
     category: 'Fuerza'
+  },
+  {
+    id: '6',
+    title: 'Fuerza Máxima',
+    description: 'Rutina enfocada en ejercicios compuestos para desarrollar fuerza máxima y masa muscular.',
+    duration: 60,
+    exercises: ['7', '8', '9', '10'],
+    image: 'https://images.pexels.com/photos/6551136/pexels-photo-6551136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    level: 'Avanzado',
+    category: 'Fuerza'
+  },
+  {
+    id: '7',
+    title: 'Entrenamiento de Fuerza Superior',
+    description: 'Rutina específica para desarrollar la parte superior del cuerpo con ejercicios compuestos.',
+    duration: 50,
+    exercises: ['8', '9', '10', '1'],
+    image: 'https://images.pexels.com/photos/6551136/pexels-photo-6551136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    level: 'Intermedio',
+    category: 'Fuerza'
+  },
+  {
+    id: '8',
+    title: 'HIIT con Pesas',
+    description: 'Combinación de ejercicios de fuerza y cardio para maximizar la quema de calorías.',
+    duration: 40,
+    exercises: ['7', '4', '8', '2'],
+    image: 'https://images.pexels.com/photos/6551136/pexels-photo-6551136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    level: 'Avanzado',
+    category: 'HIIT'
+  },
+  {
+    id: '9',
+    title: 'Fuerza Funcional',
+    description: 'Rutina que combina ejercicios de fuerza con movimientos funcionales para mejorar el rendimiento general.',
+    duration: 45,
+    exercises: ['7', '2', '6', '3'],
+    image: 'https://images.pexels.com/photos/6551136/pexels-photo-6551136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    level: 'Intermedio',
+    category: 'Fuerza'
+  },
+  {
+    id: '10',
+    title: 'Cardio Intenso con Pesas',
+    description: 'Rutina que combina ejercicios cardiovasculares con movimientos de fuerza para un entrenamiento completo.',
+    duration: 35,
+    exercises: ['4', '8', '2', '1'],
+    image: 'https://images.pexels.com/photos/6551136/pexels-photo-6551136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    level: 'Avanzado',
+    category: 'Cardio'
   }
 ];
 
